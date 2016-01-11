@@ -14,6 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cucumber_test_02@Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes__1_.coverage" NAME="Scenario: I will fill text boxes and pick from comboboxes (1) Coverage Results" MODIFIED="1452001732469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber_test_02" />
     <SUITE FILE_PATH="coverage/cucumber_test_02@test_feature.coverage" NAME="test.feature Coverage Results" MODIFIED="1451521974064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber_test_02" />
     <SUITE FILE_PATH="coverage/cucumber_test_02@Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes.coverage" NAME="Scenario: I will fill text boxes and pick from comboboxes Coverage Results" MODIFIED="1451995453865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cucumber_test_02" />
     <SUITE FILE_PATH="coverage/cucumber_test_02@test_app.coverage" NAME="test_app Coverage Results" MODIFIED="1451995719888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="cucumber_test_02" />
@@ -31,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/features/test.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -41,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/features/step_definitions/test_app.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -50,8 +51,8 @@
       <file leaf-file-name="env.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20481928">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.08192771">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +64,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/features/test.feature" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/test_app.rb" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
       </list>
     </option>
   </component>
@@ -122,6 +123,16 @@
               <option name="myItemId" value="cucumber_test_02" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber_test_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber_test_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -153,7 +164,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Ruby.test_app">
+  <component name="RunManager" selected="Cucumber.Scenario: I will fill text boxes and pick from comboboxes (1)">
     <configuration default="false" name="test.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="cucumber_test_02" />
@@ -202,6 +213,38 @@
       <method />
     </configuration>
     <configuration default="false" name="Scenario: I will fill text boxes and pick from comboboxes" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="cucumber_test_02" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/test.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^I will fill text boxes and pick from comboboxes$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: I will fill text boxes and pick from comboboxes (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="cucumber_test_02" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -345,16 +388,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Cucumber.test.feature" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.test_app" />
       <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: I will fill text boxes and pick from comboboxes" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: I will fill text boxes and pick from comboboxes (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.test_app" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: I will fill text boxes and pick from comboboxes" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.test.feature" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: I will fill text boxes and pick from comboboxes (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.test_app" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: I will fill text boxes and pick from comboboxes" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.test.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -372,35 +417,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes - 2016.01.05 at 13h 59m 01s.xml">
-      <configuration name="Scenario: I will fill text boxes and pick from comboboxes" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 14h 45m 20s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes - 2016.01.05 at 14h 00m 45s.xml">
-      <configuration name="Scenario: I will fill text boxes and pick from comboboxes" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 15h 22m 33s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes - 2016.01.05 at 14h 03m 04s.xml">
-      <configuration name="Scenario: I will fill text boxes and pick from comboboxes" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 15h 24m 03s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes - 2016.01.05 at 14h 04m 46s.xml">
-      <configuration name="Scenario: I will fill text boxes and pick from comboboxes" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 15h 24m 57s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_feature - 2015.12.31 at 02h 22m 29s.xml">
-      <configuration name="test.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 15h 25m 42s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_feature - 2015.12.31 at 02h 23m 27s.xml">
-      <configuration name="test.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 15h 47m 08s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_feature - 2015.12.31 at 02h 28m 51s.xml">
-      <configuration name="test.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 15h 47m 16s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_feature - 2015.12.31 at 02h 29m 27s.xml">
-      <configuration name="test.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 15h 48m 03s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_feature - 2015.12.31 at 02h 32m 21s.xml">
-      <configuration name="test.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 15h 48m 43s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="test_feature - 2015.12.31 at 02h 33m 15s.xml">
-      <configuration name="test.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__I_will_fill_text_boxes_and_pick_from_comboboxes_(1) - 2016.01.05 at 15h 48m 53s.xml">
+      <configuration name="Scenario: I will fill text boxes and pick from comboboxes (1)" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -438,7 +483,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -466,26 +513,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/test.feature">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/test_app.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/test_app.rb">
+    <entry file="file://$PROJECT_DIR$/features/test.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20481928">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.08192771">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>

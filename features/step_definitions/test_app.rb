@@ -1,9 +1,11 @@
 require 'capybara/cucumber'
 require 'capybara/dsl'
 
+
 page_to_visit = 'http://www.aktifsinif.com/'
 
 Given(/^I am on www\.aktifsinif\.com web site$/) do
+
   visit(page_to_visit)
 end
 
@@ -37,4 +39,5 @@ end
 
 Then(/^I should see results page$/) do
   expect(page).to have_content 'Arama Sonucu'
+
 end
